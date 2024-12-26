@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Holiday Greeting Card</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="card">
+    <img src="your-flamingo-image.png" alt="Neon Flamingos" class="background">
+    <h1 class="greeting">Happy Holidays, Fellow Traveler!</h1>
+    <button id="go-deeper">Go Deeper</button>
+  </div>
+  <div class="overlay hidden" id="zodiac-overlay">
+    <h2>What's Your Sign?</h2>
+    <select id="zodiac-sign">
+      <option value="">Select Your Zodiac</option>
+      <option value="aries">Aries</option>
+      <option value="taurus">Taurus</option>
+      <option value="gemini">Gemini</option>
+      <!-- Add other signs -->
+    </select>
+    <button id="show-greeting">Get Your Greeting</button>
+    <p id="custom-greeting" class="hidden"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
